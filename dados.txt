@@ -1,0 +1,8 @@
+view code extension
+  CSS Modules
+  
+create projeto on react
+  npm create vite@latest
+
+bibliotec of icon 
+  npm i phosphor-react
