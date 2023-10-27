@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
 
-  margin-top: calc(0px -1.5rem -6px);
+  margin-top: calc(0px - 1.5rem - 6px);
 }
 
 .avatar {
@@ -39,12 +39,13 @@
 }
 
 .sidebar footer {
-  boder-top: 1px solid var(--gray-600);
+  border-top: 1px solid var(--gray-600);
   margin-top: 1.5rem;
   padding: 1.5rem 2rem 2rem;
 }
 
 .sidebar footer a {
+  width: 100%;
   background: transparent;
   color: var(--green-500);
   border: 1px solid var(--green-500);
@@ -61,7 +62,7 @@
 
   gap: 0.5rem;
 
-  transition: color 0.1s, background-color 0.2s;
+  transition: color 0.1s, background-color 0.1s;
 }
 
 .sidebar footer a:hover {

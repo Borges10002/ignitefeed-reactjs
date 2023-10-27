@@ -1,4 +1,4 @@
-import { Commnent } from "./Comment";
+import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
 export function Post() {
@@ -9,15 +9,14 @@ export function Post() {
           <img
             className={styles.avatar}
             src="https://avatars.githubusercontent.com/u/32522338?v=4"
-            alt=""
           />
           <div className={styles.authorInfo}>
-            <strong>Diego S. Borges</strong>
-            <span>Full Stack Developer</span>
+            <strong>Diego Borges</strong>
+            <span>full stack Developer</span>
           </div>
         </div>
 
-        <time title="30 de Setembro ás 07:25h" dateTime="202-05-11 08:13:30">
+        <time title="11 de Maio às 08:13h" dateTime="2022-05-11 08:13:00">
           Publicado há 1h
         </time>
       </header>
@@ -29,14 +28,14 @@ export function Post() {
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
         <p>
-          {""} <a href="">jane.design/doctorcare</a>
+          <a href="">jane.design/doctorcare</a>
         </p>
         <p>
-          <a href="">#novoprojeto </a> {""}
-          <a href="">#nlw </a> {""}
+          <a href="">#novoprojeto</a> <a href="">#nlw</a>{" "}
           <a href="">#rocketseat</a>
         </p>
       </div>
+
       <form className={styles.commentForm}>
         <strong>Deixe seu feedback</strong>
 
@@ -48,9 +47,9 @@ export function Post() {
       </form>
 
       <div className={styles.commentList}>
-        <Commnent />
-        <Commnent />
-        <Commnent />
+        <Comment />
+        <Comment />
+        <Comment />
       </div>
     </article>
   );
